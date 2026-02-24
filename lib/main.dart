@@ -70,7 +70,7 @@ class HomePage extends StatelessWidget {
         elevation: 0,
         centerTitle: false,
         title: const Text(
-          "Pixora",
+          "Artstagram",
           style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 24),
         ),
         actions: const [
@@ -89,22 +89,22 @@ class HomePage extends StatelessWidget {
             PostCard(
               username: "anna_dev",
               imagePath: "assets/post2.jpg",
-              caption: "Coffee time ☕",
+              caption: "Make it simple",
             ),
             PostCard(
               username: "mark_design",
               imagePath: "assets/post1.jpg",
-              caption: "Loving this view!",
+              caption: "Collage time!",
             ),
             PostCard(
-                username: "doughtea_",
+                username: "xziia_",
                 imagePath: "assets/poost1.jpg",
                 caption: "beautiful",
             ),
             PostCard(
-                username: "doughtea_",
+                username: "banana_fruit",
                 imagePath: "assets/poost2.jpg",
-                caption: "cutie",
+                caption: "red",
             ),
           ],
         ),
@@ -246,7 +246,7 @@ class ProfilePage extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        _buildStatColumn("3", "Posts"),
+                        _buildStatColumn("2", "Posts"),
                         _buildStatColumn("150", "Followers"),
                         _buildStatColumn("200", "Following"),
                       ],
@@ -262,7 +262,7 @@ class ProfilePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text("doughtea_", style: TextStyle(fontWeight: FontWeight.bold)),
-                  Text("Digital creator ✨"),
+                  Text("Digital art creator ✨"),
                   Text("Post cute things"),
                 ],
               ),
@@ -292,8 +292,7 @@ class ProfilePage extends StatelessWidget {
               mainAxisSpacing: 2,
               crossAxisSpacing: 2,
               children: const [
-                Image(image: AssetImage("assets/poost1.jpg"), fit: BoxFit.cover),
-                Image(image: AssetImage("assets/poost2.jpg"), fit: BoxFit.cover),
+                Image(image: AssetImage("assets/poost3.jpg"), fit: BoxFit.cover),
                 Image(image: AssetImage("assets/profile.jpg"), fit: BoxFit.cover),
               ],
             )
